@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TANVI-portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+
+        }
+
+        body {
+            background-color: rgb(48, 51, 51);
+            color: rgb(0, 0, 0);
+
+
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 85px;
+            background-color: rgb(160, 9, 150);
+            font-size: 2rem;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 1.5rem;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: rgb(196, 255, 212);
+        }
+
+        nav ul li a:hover {
+
+            color: rgb(221, 255, 196);
+            font-size: 1.4rem;
+        }
+
+        main hr {
+            border: 0px;
+            background: violet;
+            height: 1.2px;
+            width: 40px 84px;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 50px 0;
+            align-items: center;
+        }
+
+        .firstsection>div {
+            width: 30%;
+        }
+
+        .leftsection {
+            font-size: 2rem;
+
+        }
+
+        .rightsection img {
+            width: 250px;
+            margin: 50px;
+        }
+
+        .red {
+            color: crimson;
+        }
+
+        #element {
+            color: cadetblue;
+        }
+
+        .secondSection {
+            max-width: 50vw;
+            margin: auto;
+
+
+        }
+
+        .rightsection img {
+            width: 350px;
+            border-radius: 50%;
+            border: 4px seagreen;
+            box-shadow: 0 0 20px greenyellow;
+
+        }
+
+        about p {
+            font-size: 1.2rem;
+            line-height: 1.8;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .skill-box {
+            background: rgb(160, 9, 150);
+            color: white;
+            padding: 12px 25px;
+            border-radius: 8px;
+        }
+
+        .projects {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .project-card {
+            width: 250px;
+            background: rgb(160, 9, 150);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .contact p {
+            margin: 10px 0;
+            font-size: 1.1rem;
+        }
+
+        card {
+            background: rgba(255, 255, 255, 0.08);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 25px;
+            margin: 20px;
+            color: white;
+        }
+
+        .card h2 {
+            color: #00f7ff;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .education-container {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .edu-card {
+            background: rgba(255, 255, 255, 0.12);
+            border-left: 5px solid #00f7ff;
+            padding: 18px;
+            border-radius: 15px;
+            transition: 0.4s;
+        }
+
+        .edu-card:hover {
+            transform: translateX(10px);
+            box-shadow: 0 0 20px rgba(128, 255, 0, 0.4);
+        }
+
+        .edu-card h3 {
+            color: #ff9d00;
+            margin-bottom: 8px;
+        }
+
+        .edu-card p {
+            margin: 5px 0;
+            font-size: 16px;
+        }
+
+        .edu-card span {
+            color: #dcdcdc;
+            font-size: 14px;
+        }
+
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: rgb(160, 9, 150);
+            margin-top: 40px;
+            color: white;
+        }
+
+        @media(max-width:768px) {
+            .firstsection {
+                flex-direction: column;
+                text-align: center;
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Tanvi's Portfolio</div>
+
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">
+                    <li>Projects</a></li>
+                    <li><a href="/">
+                    <li>Contact me</a></li>
+                </ul>
+            </div>
+
+        </nav>
+
+
+
+        <header>
+            <main>
+                <section class="firstsection">
+                    <div class="leftsection">
+                        Hi,my name is <span class="red">Tanvi Bhatia</span> and
+                        <div>I am a passionate web developer</div>
+                        <span id="element"></span>
+                    </div>
+
+                </section>
+                <hr style="
+        border: 0;
+        background: rgb(0, 255, 183);
+        color: rgb(0, 213, 255);
+height:4px;
+margin: 67px 84px;
+">
+
+
+
+                <section class="secondSection">
+                    <h1>ABOUT ME</h1>
+                    <p>I am a passionate Web Developer who enjoys creating responsive user friendly websites using
+                        HTML,CSS and JAVASCRIPT.</p>
+                    <h1 id="skills">Skills</h1>
+
+                    <div class="skills">
+                        <div class="skill-box">HTML</div>
+                        <div class="skill-box">CSS</div>
+                        <div class="skill-box">JavaScript</div>
+                        <div class="skill-box">Python</div>
+                        <div class="skill-box">C++</div>
+                    </div>
+                    <div class="card">
+                        <h2>🎓 Education</h2>
+
+                        <div class="edu-card">
+                            <h3>10th Grade</h3>
+                            <p>MPSFG</p>
+                            <p>Year: 2022</p>
+                            <p>Percentage: 90%</p>
+                            <span>2022-93%</span>
+                        </div>
+
+                        <div class="edu-card">
+                            <h3>12th Grade</h3>
+                            <p>MPSFG</p>
+                            <p>Year: 2024</p>
+                            <p>Percentage: 88%</p>
+                            <span>2024-90%</span>
+                        </div>
+
+                        <div class="edu-card">
+                            <h3>BCA</h3>
+                            <p>DDUMC</p>
+                            <p>2024 - 2027</p>
+                            <p>Currently Pursuing</p>
+                        </div>
+                    </div>
+                    <h1 id="projects">Projects</h1>
+
+                    <div class="projects">
+
+                        <div class="project-card">
+                            <h3>Portfolio Website</h3>
+                            <p>Personal portfolio using HTML, CSS and JavaScript.</p>
+                        </div>
+                        <div class="project-card">
+                            <h3>Weather App</h3>
+                            <p>Weather forecast app using API integration.</p>
+                        </div>
+
+                        <div class="project-card">
+                            <h3>Calculator</h3>
+                            <p>Simple calculator using JavaScript.</p>
+                        </div>
+
+                    </div>
+
+                    <h1 id="contact">Contact Me</h1>
+
+                    <div class="contact">
+                        <p><a href="/">>Email: tbhatia780@gmail.com</a></p>
+                        <p><a href="/">LinkedIn: linkedin.com/in/Tanvi bhatia</a></p>
+                        <p><a href="/"> github.com/tbhatia780</a></p>
+                    </div>
+
+                </section>
+
+            </main>
+
+            <footer>
+                © 2026 Tanvi Bhatia | All Rights Reserved
+            </footer>
+
+
+
+
+
+
+
+            </section>
+
+
+
+
+
+
+
+
+            </section>
+            </main>
+            <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+            <!--setup and start animation!-->
+            <script>
+                var typed = new Typed('#element', {
+                    strings: ['web developer', 'graphic designer', 'web designer', 'video editor'],
+                    typeSpeed: 50,
+                    backSpeed: 30,
+                    loop: true
+                });
+
+            </script>
+
+        </header>
+
+</html>
